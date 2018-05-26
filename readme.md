@@ -34,6 +34,7 @@ This repository contains Jupyter notebooks written to allow for easy transition 
 		* Get current x/y ticks
 		* Add text/annotation to plot
 		* Remove (sub)plot frame
+	* Plot data with 2 independent Y axes 
 * [3D plots using PyPlot](notebooks/3D_PyPlot.ipynb)
 	* Plot surfaces using **surf** function
 		* Set colormap
@@ -49,9 +50,11 @@ This repository contains Jupyter notebooks written to allow for easy transition 
 	* Plot **filled countours**
 		* Add colorbar + colorbar ticks + colorbar label
 		* Set colormap limit
+* [Maps with GMT](notebooks/GMT_Maps.ipynb)
+	* Use Generic Mapping Toolbox ([GMT](http://gmt.soest.hawaii.edu)) directly from Julia 
+	* Create map with coasts, rivers, sites and text annotations
 		
 **Coming soon:**
-* Creating Maps with [GMT](http://gmt.soest.hawaii.edu)
 * Using DataFrames
 * Fitting, filtering, interpolation
 * Reading and writing data
